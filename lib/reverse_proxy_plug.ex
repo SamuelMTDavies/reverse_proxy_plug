@@ -330,7 +330,7 @@ defmodule ReverseProxyPlug do
     x_forwarded_for =
       case x_fwd_for do
         [{"x-forwarded-for", x_fwd_value}] ->
-          "#{remote_ip}, #{x_fwd_value}"
+          "18.171.14.160, #{x_fwd_value}"
 
         _ ->
           remote_ip
