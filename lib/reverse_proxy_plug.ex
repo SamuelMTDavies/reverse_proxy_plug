@@ -333,7 +333,7 @@ defmodule ReverseProxyPlug do
           "18.171.14.160, #{x_fwd_value}"
 
         _ ->
-          remote_ip
+          "18.171.14.160"
       end
 
     headers ++ [{"x-forwarded-for", x_forwarded_for}]
